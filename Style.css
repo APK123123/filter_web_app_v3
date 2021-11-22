@@ -1,0 +1,28 @@
+
+#get_image {
+    font-size: 20px;
+    padding: 20px;
+    background-color: rgb(42, 187, 37);
+}
+#title {
+    margin-top: 20px;
+    width: 200px;
+    font-size: 20px;
+    padding: 20px;
+    background-color: rgb(42, 187, 37);
+}
+
+canvas{
+    color: green;
+    border: 4.5px solid blueviolet;
+        border-radius: 20px;
+        animation-name: example;
+        animation-duration: 4s;
+        margin-top: 50px;
+        animation-iteration-count: infinite;
+
+}
+@keyframes example {
+    from {box-shadow: 1px 1px 100px palegoldenrod;}
+    to {box-shadow: 1px 1px 100px plum;}    
+}
